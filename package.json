@@ -1,0 +1,26 @@
+{
+  "name": "@luaft/weather-api.js",
+  "version": "1.0.0",
+  "description": "weather-api.js is a simple Node.js module that allows you to easily interact with the API of weatherapi.com.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nathan-html/weather-api.js.git"
+  },
+  "keywords": [
+    "nodejs",
+    "npm",
+    "weather-api",
+    "nodejs-modules",
+    "typescript"
+  ],
+  "author": "Nathan Flacher <contact@nathan-flacher.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nathan-html/weather-api.js/issues"
+  },
+  "homepage": "https://github.com/Nathan-html/weather-api.js#readme"
+}
