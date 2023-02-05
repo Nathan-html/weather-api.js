@@ -1,5 +1,5 @@
 <div align='center' style='align: center;'>
-<a href="https://www.weatherapi.com/" title="Free Weather API"><img src='./public/weatherapi_logo.webp' alt="Weather data by WeatherAPI.com" border="0"></a>
+<a href="https://www.weatherapi.com/" title="Free Weather API"><img src='./public/weatherapi_logo.webp' alt="Weather data by WeatherAPI.com" border="0" style='width: 75%; margin: 32px'></a>
 </div>
 
 # About
