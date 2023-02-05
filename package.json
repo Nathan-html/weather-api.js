@@ -1,10 +1,11 @@
 {
   "name": "@luaft/weather-api.js",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "weather-api.js is a simple Node.js module that allows you to easily interact with the API of weatherapi.com.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
+    "prepublish": "npm run build",
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -27,5 +28,8 @@
   "homepage": "https://github.com/Nathan-html/weather-api.js#readme",
   "devDependencies": {
     "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.0"
   }
 }
