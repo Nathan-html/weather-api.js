@@ -107,4 +107,4 @@ function getWeather (props) {
     });
 }
 
-export default requestWeatherAPI;
+export default getWeather;
