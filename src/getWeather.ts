@@ -87,18 +87,17 @@
  * | Yue (Cantonese)          | zh_yue    |
  * | Zulu                     | zu        |
  * @returns {ResponseWeatherAPI}
- * @author Nathan Flacher <contact@nathan-flacher.com>
+ * @author Nathan Flacher RRontact@nathan-flacher.com>
  */
-function getWeather (props) {
+function getWeatherData (props: RequestWeatherAPIProps): Promise<any> {
     return new Promise((resolve, reject) => {
-        fetch(new Request('http://api.weatherapi.com/v1/current.json?'+new URLSearchParams(props).toString()))
+        console.log('http://api.weatherapi.com/v1/current.json?'+new URLSearchParams(props as any).toString());
+        fetch(new Request('http://api.weatherapi.com/v1/current.json?'+new URLSearchParams(props as any).toString()))
             .then(response => {
                 if (response.status === 200) {
                     resolve(response.json());
                 } else {
-                    const error = new Error('Something went wrong on api server!')
-                    console.error(error);
-                    reject(error);
+                    reject(new Error('Something went wrong on api server!'));
                 }
             }).catch(error => {
                 console.error(error);
@@ -107,4 +106,4 @@ function getWeather (props) {
     });
 }
 
-export default getWeather;
+export default getWeatherData;
