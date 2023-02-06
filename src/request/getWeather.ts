@@ -1,3 +1,5 @@
+import {RequestWeatherAPIProps} from '../types';
+
 /**
  * Request the weather on the API of weatherapi.com
  * 

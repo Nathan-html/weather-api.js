@@ -8,7 +8,7 @@ weather-api.js is a simple Node.js module that allows you to easily interact wit
 
 # Installation
 
-```cmd
+```
 npm install @luaft/weather-api.js
 yarn add @luaft/weather-api.js
 pnpm add @luaft/weather-api.js

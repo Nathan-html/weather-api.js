@@ -1,4 +1,4 @@
-declare type RequestWeatherAPIProps = {
+export type RequestWeatherAPIProps = {
     key: string,
     q: string,
     days?: string,
@@ -14,7 +14,7 @@ declare type RequestWeatherAPIProps = {
 
 }
 
-declare type ResponseWeatherAPI = {
+export type ResponseWeatherAPI = {
     location: {
         name: string,
         region: string,
@@ -56,7 +56,7 @@ declare type ResponseWeatherAPI = {
     }
 }
 
-declare enum Languages {
+export enum Languages {
     Arabic =                'ar',
     Bengali = 	            'bn',
     Bulgarian =             'bg',
