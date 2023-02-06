@@ -4,20 +4,20 @@
 
 # About
 
-weather-api.js is a simple Node.js module that allows you to easily interact with the API of weatherapi.com.
+weather-api.ts is a simple Node.js module that allows you to easily interact with the API of weatherapi.com.
 
 # Installation
 
 ```
-npm install @luaft/weather-api.js
-yarn add @luaft/weather-api.js
-pnpm add @luaft/weather-api.js
+npm install weather-api.ts
+yarn add weather-api.ts
+pnpm add weather-api.ts
 ```
 
 # Links
 
 * <a href='https://github.com/Nathan-html/weather-api.js'>Github</a>
-* <a href='https://www.npmjs.com/package/@luaft/weather-api.js'>npm</a>
+* <a href='https://www.npmjs.com/package/@luaft/weather-api.ts'>npm</a>
 
 # Help
 
