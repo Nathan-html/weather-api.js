@@ -4,7 +4,7 @@
 
 # About
 
-weather-api.ts is a simple Node.js module that allows you to easily interact with the API of weatherapi.com.
+weather-api.ts is an unofficial plugin that allows you to easily interact with the API of weatherapi.com
 
 # Installation
 
@@ -13,6 +13,22 @@ npm install weather-api.ts
 yarn add weather-api.ts
 pnpm add weather-api.ts
 ```
+
+# Uses
+
+```ts
+// get realtime weather data with a query
+let weatherData;
+await new Weather(KEY, LANG, FORMAT)
+    .realtime({q: QUERY})
+        .then(result => {
+            weatherData = result;
+        })
+        .catch(error => {
+            console.error(error);
+        });
+```
+
 
 # Links
 

@@ -1,3 +1,6 @@
 node_modules 
-src/
+src
+jest.config.js
 tsconfig.json
+tests
+.env*

@@ -1,5 +1,5 @@
-import getWeatherData from "./request/getWeather";
+import Weather from "./model/Weather";
 
 export {
-    getWeatherData
+    Weather
 };

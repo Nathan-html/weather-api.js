@@ -10,8 +10,20 @@ export type RequestWeatherAPIProps = {
     alerts?: string,
     aqi?: string,
     tp?: string,
-    lang?: string,
+    lang?: string
+}
 
+export type GetWeatherAPIProps = {
+    q: string,
+    days?: string,
+    dt?: string,
+    unixdt?: string,
+    end_dt?: string,
+    unixend_dt?: string
+    hour?: string,
+    alerts?: string,
+    aqi?: string,
+    tp?: string
 }
 
 export type ResponseWeatherAPI = {
@@ -26,7 +38,7 @@ export type ResponseWeatherAPI = {
         localtime: string
     },
     current: {
-        last_updated_epoch: string,
+        last_updated_epoch: number,
         last_updated: string,
         temp_c: number,
         temp_f: number,
@@ -54,6 +66,11 @@ export type ResponseWeatherAPI = {
         gust_mph: number,
         gust_kph: number
     }
+}
+
+export enum Formats {
+    json = 'json',
+    xml  = 'xml'
 }
 
 export enum Languages {
