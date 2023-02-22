@@ -1,6 +1,6 @@
 {
   "name": "weather-api.ts",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "weather-api.ts is a simple Node.js module that allows you to easily interact with the API of weatherapi.com.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
