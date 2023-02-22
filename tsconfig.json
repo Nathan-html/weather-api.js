@@ -6,8 +6,5 @@
       "outDir": "./lib",
       "strict": true
     },
-    "include": [
-      "./src/*",
-      "./tests/*"
-    ]
+    "include": ["./src/*"]
 }

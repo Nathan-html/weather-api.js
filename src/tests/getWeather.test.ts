@@ -1,5 +1,5 @@
-import {RequestWeatherAPIProps, ResponseWeatherAPI} from "../src/types/index";
-import {Weather} from "../src/index";
+import {RequestWeatherAPIProps, ResponseWeatherAPI} from "../types/index";
+import {Weather} from "../index";
 
 function pleaseAdd (prop: string) {
     console.error(`Please add "${prop}" propertie in your environement variables`);
